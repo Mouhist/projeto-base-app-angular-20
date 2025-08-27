@@ -1,59 +1,59 @@
-# MINDFLOWAPP
+# Projeto Base Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+Este é um projeto base para iniciar novos projetos com Angular.
 
-## Development server
+## Descrição
 
-To start a local development server, run:
+Este projeto contém uma estrutura de pastas e arquivos pré-configurada, com as principais dependências e ferramentas para o desenvolvimento de aplicações web com Angular.
 
-```bash
-ng serve
+## Features
+
+*   Angular
+*   TypeScript
+*   SCSS
+*   Estrutura de pastas organizada
+*   Componentes compartilhados
+*   Pré-configuração de arquivos de ambiente
+
+## Como Começar
+
+1.  Clone este repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
+2.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+3.  Inicie o servidor de desenvolvimento:
+    ```bash
+    npm start
+    ```
+
+## Estrutura de Pastas
+
+A estrutura de pastas está organizada da seguinte forma:
+
+```
+/
+├── src/
+│   ├── app/
+│   │   ├── core/
+│   │   ├── shared/
+│   │   └── features/
+│   ├── assets/
+│   ├── environments/
+│   └── styles/
+├── .gitignore
+├── angular.json
+├── package.json
+└── README.md
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Customização
 
-## Code scaffolding
+Para customizar este projeto, você pode:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+*   Alterar o nome do projeto no arquivo `package.json` e `angular.json`.
+*   Adicionar novos componentes na pasta `src/app/features`.
+*   Modificar os estilos globais em `src/styles/styles.scss`.
